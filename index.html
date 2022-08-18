@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, intial-scale=1.0">
+</head>
+<body>
+
+	<div style="background-color:red"; align="center">
+	
+	<h1>Democracy For Myanmar</h1>
+
+	</div>
+
+	<img src="savemyanmar.jpg" width="100%" height="200px" alt="savemyanmar">
+
+	<fieldset>
+		<legend>Survey Form 2021</legend>
+
+	<form action="" method="" enctype="multipart/formdata">
+
+	<label for="name">Name :</label>
+	<input type="text" name="name" id="name" class="" placeholder="Enter your name" minlength="3" maxlength="30" required />
+
+	<br/><br/>
+
+	<label for="email">Email :</label>
+	<input type="email" name="email" id="email" class="" placeholder="Enter your email" required/>
+
+	<br/><br/>
+
+	<label for="age">Age :</label>
+	<input type="number" name="age" id="age" class="" placeholder="Age" min="16" max="65" required/>
+
+	<br/><br/>
+
+	<label for="birth">Date of Birth :</label>
+	<input type="date" name="birth" id="birth" class="" required />
+
+	<br/><br/>
+
+	<label for="role">Occupation :</label>
+	<select name="role" id="role" class="">
+		<option selected disabled>Choose your occupation</option>
+		<option value="1">Student</option>
+		<option value="0">Work</option>
+		<option value="2">Retire</option>
+	</select>
+
+	<br/><br/>
+
+	<label>If university student,</label><br/>
+	<input type="radio" name="year" id="yearb" class="" value="1" /><label for="yearb">Undergraduate</label>
+	<input type="radio" name="year" id="yearp" class="" value="0" /><label for="yearp">Postgraduate</label>
+
+	<br/><br/>
+
+	<label>Are you from Yangon University?</label><br/>
+	<input type="radio" name="yesorno" id="yes" class="" value="1" /><label for="yes">Yes</label>
+	<input type="radio" name="yesorno" id="no" class="" value="0" /><label for="no">No</label>
+
+	<br/><br/>
+
+	<label>Which government do you support?</label><br/>
+	<input type="radio" name="gov" id="nug" class="" value="1" checked /><label for="nug">NUG</label>
+	<input type="radio" name="gov" id="mal" class="" value="0" /><label for="mal">MAL</label>
+
+	<br/><br/>
+
+	<label>What have you done for revolution?</label><br/>
+	<input type="checkbox" name="done" id="nothing" class="" value="0" /><label for="nothing">Nothing</label>
+	<input type="checkbox" name="done" id="boycott" class="" value="1" /><label for="boycott">Boycott ML & Tiktok</label>
+	<input type="checkbox" name="done" id="donate" class="" value="2" /><label for="donate">Donation</label>
+	<input type="checkbox" name="done" id="protest" class="" value="0" /><label for="protest">Protest</label>
+
+	<br/><br/>
+
+	<label for="nrcf">NRC Front :</label>
+	<input type="file" name="nrcf" id="nrcf" class="" />
+	
+	<label for="nrcb">NRC Back :</label>
+	<input type="file" name="nrcb" id="nrcb" class="" />
+
+	<br/><br/>
+
+	<label for="phnum">Phone Number :</label>
+	<input type="text" name="phnum" id="phnum" class="" /> <small>(optional)</small>
+
+	<br/><br/>
+
+	<label for="range">Percentage for revolution to prevail</label>
+	<input type="range" name="range" id="range" class="" min="0" max="100" step="10" required />
+
+	<br/><br/>
+
+	<label for="inform">You can add more information below :</label><br/>
+	<textarea name="inform" id="inform" class="" rows="5" placeholder="Write your information"></textarea> <small>(optional)</small>
+
+	<br/><br/>
+
+	<input type="reset" name="reset" id="reset" class="" value="Cancel" />
+	<input type="submit" name="submit" id="submit" class="" />
+
+	</form>
+	</fieldset>
+
+	<center>
+	<small>Don't know what is happening in Myanmar?
+	<a href="https://www.bbc.com/news/world-asia-55902070" target="_blank" title="click fast">Click here to see</a>
+	</small>
+	</center>
+</body>
+</html>
